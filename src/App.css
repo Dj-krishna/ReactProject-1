@@ -1,0 +1,91 @@
+* {
+  border: 0px solid black;
+}
+
+body {
+  background-color: rgb(214, 227, 223);
+}
+
+.App {
+  padding: 4rem 4rem;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 40%;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  padding: 10px;
+  text-align: right;
+  margin: 0;
+}
+
+.inputs input,
+.inputs textarea {
+  padding: 8px;
+  border: 1px solid turquoise;
+  background-color: rgba(244, 239, 239, 0.9);
+}
+
+.inputs label {
+  font-size: 17px;
+  color: teal;
+  font-weight: 700;
+}
+
+input[type="radio"] {
+  border: 1px solid turquoise;
+}
+
+.btn {
+  font-size: 20px;
+  width: 55%;
+  text-align: center;
+}
+
+.errors {
+  text-align: center;
+  margin-top: 2.3%;
+}
+
+.form-check {
+  margin: 1.5% 2% 0% 2.5%;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+/* FormExample css */
+/* .form-Section {
+  text-align: center;
+  padding: 5%;
+  background-color: plum;
+}
+
+.form-Section input {
+  margin: 2%;
+  padding: 10px;
+  width: 40%;
+  border: 1px solid red;
+  border-radius: 15px;
+}
+button{
+  padding: 10px;
+  width: 10%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+} */
