@@ -12,32 +12,29 @@ body {
 }
 
 .container {
-  text-align: center;
   display: grid;
-  grid-template-columns: 20% 40%;
-  grid-gap: 10px;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .inputs {
-  padding: 10px;
-  text-align: right;
-  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  align-items: baseline;
 }
 
-.inputs input,
+/* .inputs input,
 .inputs textarea {
   padding: 8px;
   border: 1px solid turquoise;
   background-color: rgba(244, 239, 239, 0.9);
-}
+} */
 
-.inputs label {
+/* .inputs label {
   font-size: 17px;
   color: teal;
   font-weight: 700;
-}
+} */
 
 input[type="radio"] {
   border: 1px solid turquoise;
@@ -55,7 +52,7 @@ input[type="radio"] {
 }
 
 .form-check {
-  margin: 1.5% 2% 0% 2.5%;
+  margin: 2% 0% 2% 0.5%;
 }
 
 button a {

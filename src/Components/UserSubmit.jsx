@@ -134,19 +134,18 @@ export default function UserSubmit() {
   // }
   return (
     <>
-      <h1 className="text-center text-danger">PATIENT REGISTRATION FORM</h1>
+      <h1 className="  text-danger">PATIENT REGISTRATION FORM</h1>
       <form onSubmit={handleSubmit}>
-        <div className="container p-3 text-center ms-5">
+        <div className="container">
           <div className="inputs">
             <label htmlFor="">
-              <u>First Name : </u>
+             First Name:
             </label>
-          </div>
-          <div className="inputs">
+          
             <input
               type="text"
               name="firstname"
-              className="form-control w-75"
+              className="form-control w-25"
               placeholder="enter your firstname"
               value={formData?.firstname}
               onChange={handleChange}
@@ -159,14 +158,13 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Last Name : </u>
+              Last Name:
             </label>
-          </div>
-          <div className="inputs">
+          
             <input
               type="text"
               name="lastname"
-              className="form-control w-75"
+              className="form-control w-25"
               placeholder="enter your lastname"
               value={formData?.lastname}
               onChange={handleChange}
@@ -179,14 +177,14 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Email : </u>
+               Email :  
             </label>
           </div>
           <div className="inputs">
             <input
               type="email"
               name="email"
-              className="form-control w-75"
+              className="form-control w-25"
               placeholder="example@email.com"
               value={formData?.email}
               onChange={handleChange}
@@ -199,7 +197,7 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Mobile Number : </u>
+               Mobile Number :  
             </label>
           </div>
           <div className="inputs">
@@ -207,7 +205,7 @@ export default function UserSubmit() {
               type="text"
               name="phoneNumber"
               maxLength={10}
-              className="form-control w-75"
+              className="form-control w-25"
               placeholder="enter your mobile number"
               value={formData?.phoneNumber}
               onChange={handleChange}
@@ -220,7 +218,7 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Password : </u>
+               Password :  
             </label>
           </div>
           <div className="inputs">
@@ -228,7 +226,7 @@ export default function UserSubmit() {
               type="password"
               name="password"
               maxLength={10}
-              className="form-control w-75"
+              className="form-control w-25"
               placeholder="Password"
               value={formData?.password}
               onChange={handleChange}
@@ -241,7 +239,7 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Confirm Password : </u>
+               Confirm Password :  
             </label>
           </div>
           <div className="inputs">
@@ -249,7 +247,7 @@ export default function UserSubmit() {
               type="password"
               name="confirmPassword"
               maxLength={10}
-              className="form-control w-75"
+              className="form-control w-25"
               placeholder="Confirm Password"
               value={formData?.confirmPassword}
               onChange={handleChange}
@@ -262,7 +260,7 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Gender : </u>
+               Gender :  
             </label>
           </div>
           <div className="d-flex">
@@ -304,14 +302,14 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Date Of Birth : </u>
+               Date Of Birth :  
             </label>
           </div>
           <div className="inputs">
             <input
               type="date"
               name="birthDate"
-              className="form-control w-75"
+              className="form-control w-25"
               value={formData?.birthDate}
               onChange={handleChange}
             />
@@ -323,14 +321,14 @@ export default function UserSubmit() {
           </div>
           <div className="inputs">
             <label htmlFor="">
-              <u>Age : </u>
+               Age :  
             </label>
           </div>
           <div className="inputs">
             <input
               type="number"
               name="age"
-              className="form-control w-75"
+              className="form-control w-25"
               value={formData?.age}
               placeholder="Enter your age"
               onChange={handleChange}
@@ -343,12 +341,12 @@ export default function UserSubmit() {
           )}
           <div className="inputs">
             <label htmlFor="">
-              <u>Address : </u>
+               Address :  
             </label>
           </div>
           <div class="mb-3 inputs">
             <textarea
-              class="form-control w-75"
+              class="form-control w-25"
               rows="3"
               placeholder="permanent address"
             ></textarea>
@@ -359,9 +357,9 @@ export default function UserSubmit() {
             )}
           </div>
         </div>
-        <div className="text-center">
+        <div className=" ">
           <button
-            className="btn btn-primary p-1 text-white text-center w-25"
+            className="btn btn-primary p-1 text-white   w-25"
             onClick={inputDetails}
           >
             Submit
@@ -369,7 +367,7 @@ export default function UserSubmit() {
         </div>
       </form>
       <div>
-        <h4>{inputValues}</h4>
+        <h4>{inputValues?.firstname}</h4>
       </div>
     </>
   );
